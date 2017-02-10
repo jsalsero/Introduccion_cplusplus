@@ -23,8 +23,9 @@ int main() {
 }
 ```
 
-Whaat? ¿Qué es cout y los signos de ```<<```?
-No entremos en pánico (aún), sucede que podemos utilizar uno u otro imprimir __JAMÁS AMBOS__, hablemos un poco sobre las ventajas que ofrece cout
+Whaat? ¿Qué es cout y los signos de ```<<```
+
+No entremos en pánico (aún), sucede que podemos utilizar uno u otro para imprimir __JAMÁS AMBOS__. Mejor hablemos un poco sobre las ventajas que ofrece cout
 
 ANSCI-C:
 ```c
@@ -40,8 +41,7 @@ Como te podrás dar cuenta no necesitas indicar el tipo de dato a imprimir, bast
   std :: cout << 1 << 2 << " tambien imprime cadenas!\n";
 ```
 
-Sin embargo aún no hemos dicho nada sobre 'std ::'. Podemos pensar en std como el archivo en el que está guardado el código para utilizara cout, esto quiere decir que puedes crear tus propias funciones con el mismo nombre que tiene la std.
-
+Sin embargo aún no hemos dicho nada sobre 'std ::'. Podemos pensar en std como el archivo en el que está guardado el código para utilizara cout, de esta forma el compilador sabe en donde buscar. 
 -----------
 ```
 #include <stdio.h>
