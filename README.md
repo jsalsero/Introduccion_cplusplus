@@ -5,8 +5,8 @@ Bienvenido a la guía básica para pasar de ANSCI-C a C++
 #include <stdio.h>
 
 int main() {
-	printf("Hola mundo!");
-	return 0;
+  printf("Hola mundo!");
+  return 0;
 }
 ```
 Seguramente recordarás ese programa, ahora veamos cómo se hace en C++
@@ -14,21 +14,21 @@ Seguramente recordarás ese programa, ahora veamos cómo se hace en C++
 #include <iostream>
 
 int main() {
-	std :: cout << "Hola mundo";
-	return 0;
+  std :: cout << "Hola mundo";
+  return 0;
 }
 ```
 
 Whaat? ¿Qué es cout y los signos de '<<'?
-No entremos en pánico (aún), sucede que podemos usar ambos para imprimir en C++ aunque veamos algunas ventajas que ofrece cout
+No entremos en pánico (aún), sucede que podemos uno u otro imprimir JAMÁS AMBOS, aunque veamos algunas ventajas que ofrece cout
 
 ANSCI-C:
 ```c
-	printf("%d %d %d", a, b, c);
+  printf("%d %d %d", a, b, c);
 ```
 C++
 ```c++
-	std :: cout << a << b << c;
+  std :: cout << a << b << c;
 ```
 
 Como te podrás dar cuenta no necesitas indicar el tipo de dato a imprimir, basta con que sea ¨imprimible¨. 
@@ -39,11 +39,59 @@ Como te podrás dar cuenta no necesitas indicar el tipo de dato a imprimir, bast
 
 Sin embargo aún no hemos dicho nada sobre 'std ::', podemos pensar en std como el archivo en el que está guardado el código para utilizara cout, esto quiere decir que puedes crear tus propias funciones con el mismo nombre que tiene la std.
 
+-----------
+```
+#include <stdio.h>
+
+int main() {
+  int numero;
+  scanf("%d", &numero);
+  return 0;
+}
+```
+
+El programa de arriba lee un número y lo guarda en la variable ```número```, veamos cómo hacerlo en C++
+
+```
+#include <iostream>
+
+int main() {
+  int numero;
+  std :: cin >> numero;
+  return 0;
+}
+```
+
+Vaya, resulta que scanf también tiene su análogo como printf y efectivamente cin ofrece facilidades similares a las de cout ya que no hace falta indicar el tipo de dato a leer y podemos leer tantos datos como queramos.
+
+```
+#include <iostream>
+
+int main() {
+  int a, b, c;
+  std :: cin >> a >> b >> c;
+  return 0;
+}
+```
+
+
+
+
+
 
 Compilación
 ----------
 
-Para compilar un programa en C++ utilizamos el siguiente comando
+Si utilizas windows te recomendamos descargar MinGW[MinGW](https://sourceforge.net/projects/mingw/files/latest/download?source=files) e instalarlo siguiendo estos pasos:
+
+1. Extrae los archivos en C:\MinGW (si no existe la carpeta, crea una con ese nombre)
+2. Agrega ```C:\MinGW\bin;``` a la variable de entorno PATH. 
+
+Para compilar un programa basta con abrir la terminal 
+* Windows: _Win + R_ >> escribe ```cmd``` >> Enter
+* Linux:   _Ctrl + Alt + T_
+
+Y escribir el siguiente comando
 ```
   g++ nombre.cpp 
 ```
