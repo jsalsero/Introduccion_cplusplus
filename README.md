@@ -1,6 +1,9 @@
 # Introduccion_c++
 
 Bienvenido a la guía básica para pasar de ANSCI-C a C++
+
+
+Seguramente recordarás el siguiente programa
 ```c
 #include <stdio.h>
 
@@ -9,7 +12,8 @@ int main() {
   return 0;
 }
 ```
-Seguramente recordarás ese programa, ahora veamos cómo se hace en C++
+
+Compáralo con el siguiente código
 ```c++
 #include <iostream>
 
@@ -19,8 +23,8 @@ int main() {
 }
 ```
 
-Whaat? ¿Qué es cout y los signos de '<<'?
-No entremos en pánico (aún), sucede que podemos uno u otro imprimir JAMÁS AMBOS, aunque veamos algunas ventajas que ofrece cout
+Whaat? ¿Qué es cout y los signos de ```<<```?
+No entremos en pánico (aún), sucede que podemos utilizar uno u otro imprimir __JAMÁS AMBOS__, hablemos un poco sobre las ventajas que ofrece cout
 
 ANSCI-C:
 ```c
@@ -31,13 +35,12 @@ C++
   std :: cout << a << b << c;
 ```
 
-Como te podrás dar cuenta no necesitas indicar el tipo de dato a imprimir, basta con que sea ¨imprimible¨. 
-
+Como te podrás dar cuenta no necesitas indicar el tipo de dato a imprimir, basta con que sea ¨imprimible¨. Tampoco es necesario que todo tenga el mismo tipo de dato:
 ```
   std :: cout << 1 << 2 << " tambien imprime cadenas!\n";
 ```
 
-Sin embargo aún no hemos dicho nada sobre 'std ::', podemos pensar en std como el archivo en el que está guardado el código para utilizara cout, esto quiere decir que puedes crear tus propias funciones con el mismo nombre que tiene la std.
+Sin embargo aún no hemos dicho nada sobre 'std ::'. Podemos pensar en std como el archivo en el que está guardado el código para utilizara cout, esto quiere decir que puedes crear tus propias funciones con el mismo nombre que tiene la std.
 
 -----------
 ```
@@ -73,11 +76,6 @@ int main() {
   return 0;
 }
 ```
-
-
-
-
-
 
 Compilación
 ----------
