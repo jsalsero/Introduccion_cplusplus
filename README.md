@@ -40,7 +40,8 @@ Como te podrás dar cuenta no necesitas indicar el tipo de dato a imprimir, bast
 Sin embargo aún no hemos dicho nada sobre 'std ::', podemos pensar en std como el archivo en el que está guardado el código para utilizara cout, esto quiere decir que puedes crear tus propias funciones con el mismo nombre que tiene la std.
 
 
-# Compilación
+Compilación
+----------
 
 Para compilar un programa en C++ utilizamos el siguiente comando
 ```
