@@ -80,7 +80,7 @@ int main() {
 Compilación
 ----------
 
-Si utilizas windows te recomendamos descargar MinGW[MinGW](https://sourceforge.net/projects/mingw/files/latest/download?source=files) e instalarlo siguiendo estos pasos:
+Si utilizas windows te recomendamos descargar [MinGW](https://sourceforge.net/projects/mingw/files/latest/download?source=files) e instalarlo siguiendo estos pasos:
 
 1. Extrae los archivos en C:\MinGW (si no existe la carpeta, crea una con ese nombre)
 2. Agrega ```C:\MinGW\bin;``` a la variable de entorno PATH. 
