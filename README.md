@@ -42,7 +42,7 @@ Como te podrás dar cuenta no necesitas indicar el tipo de dato a imprimir, bast
 ```
 
 Sin embargo aún no hemos dicho nada sobre 'std ::'. Podemos pensar en std como el archivo en el que está guardado el código para utilizara cout, de esta forma el compilador sabe en donde buscar. 
------------
+
 ```
 #include <stdio.h>
 
