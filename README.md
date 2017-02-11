@@ -37,13 +37,13 @@ C++
 ```
 
 Como te podrás dar cuenta no necesitas indicar el tipo de dato a imprimir, basta con que sea ¨imprimible¨. Tampoco es necesario que todo tenga el mismo tipo de dato:
-```
+```c++
   std :: cout << 1 << 2 << " tambien imprime cadenas!\n";
 ```
 
 Sin embargo aún no hemos dicho nada sobre 'std ::'. Podemos pensar en std como el archivo en el que está guardado el código para utilizara cout, de esta forma el compilador sabe en donde buscar. 
 
-```
+```c
 #include <stdio.h>
 
 int main() {
@@ -55,7 +55,7 @@ int main() {
 
 El programa de arriba lee un número y lo guarda en la variable ```número```, veamos cómo hacerlo en C++
 
-```
+```c++
 #include <iostream>
 
 int main() {
@@ -67,7 +67,7 @@ int main() {
 
 Vaya, resulta que scanf también tiene su análogo como printf y efectivamente cin ofrece facilidades similares a las de cout ya que no hace falta indicar el tipo de dato a leer y podemos leer tantos datos como queramos.
 
-```
+```c++
 #include <iostream>
 
 int main() {
