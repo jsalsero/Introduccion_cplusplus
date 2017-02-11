@@ -1,4 +1,4 @@
-# Introduccion_c++
+# Introduccion a c++
 
 Bienvenido a la guía básica para pasar de ANSCI-C a C++
 
