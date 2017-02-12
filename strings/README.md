@@ -46,7 +46,7 @@ int main() {
 ```
 Ejecutando el programa anterior y escribiendo la frase "pepe pica papas" sucede lo siguiente
 
-![alt tag](/img/pepe.png?raw=true)
+![alt tag](/strings/img/pepe.png)
 
 ¿Qué sucedió? ¿Por qué no leyó toda la frase? Tal como lo mencionamos, el primer espacio le indicó a cin que
 ahí termina la cadena omitiendo todo lo demás.
@@ -67,4 +67,4 @@ int main() {
 }
 ```
 
-![alt tag](/img/getline_pepe.png?raw=true)
+![alt tag](/strings/img/getline_pepe.png?raw=true)
