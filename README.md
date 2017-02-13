@@ -1,4 +1,4 @@
-# Introduccion a c++
+# Introducción a c++
 
 Bienvenido a la guía básica para pasar de ANSCI-C a C++
 
@@ -25,7 +25,7 @@ int main() {
 
 Whaat? ¿Qué es cout y los signos de ```<<```
 
-No entremos en pánico (aún), sucede que podemos utilizar uno u otro para imprimir __JAMÁS AMBOS__. Mejor hablemos un poco sobre las ventajas que ofrece cout
+No entremos en pánico (aún), sucede que podemos utilizar uno u otro para imprimir __JAMÁS AMBOS__. Ahora hablemos un poco sobre las ventajas que ofrece cout
 
 ANSCI-C:
 ```c
@@ -41,7 +41,7 @@ Como te podrás dar cuenta no necesitas indicar el tipo de dato a imprimir, bast
   std :: cout << 1 << 2 << " tambien imprime cadenas!\n";
 ```
 
-Sin embargo aún no hemos dicho nada sobre 'std ::'. Podemos pensar en std como el archivo en el que está guardado el código para utilizara cout, de esta forma el compilador sabe en donde buscar. 
+Sin embargo aún no hemos dicho nada sobre 'std ::'. Podemos pensar en std como el archivo en el que está guardado el código para utilizara cout, de esta forma el compilador sabe la ubicación de cout. 
 
 ```c
 #include <stdio.h>
@@ -65,7 +65,7 @@ int main() {
 }
 ```
 
-Vaya, resulta que scanf también tiene su análogo como printf y efectivamente cin ofrece facilidades similares a las de cout ya que no hace falta indicar el tipo de dato a leer y podemos leer tantos datos como queramos.
+Vaya, resulta que scanf también tiene su análogo como printf y efectivamente, cin ofrece facilidades similares a las de cout ya que no hace falta indicar el tipo de dato a leer y podemos leer tantos datos como queramos.
 
 ```c++
 #include <iostream>
@@ -95,17 +95,3 @@ Y escribir el siguiente comando
 ```
 
 Este comando te devolverá un archivo a.out(si estás en linux) a.exe(windows), siempre y cuando no tenga errores de compilación el archivo ¿lógico no?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
