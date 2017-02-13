@@ -1,10 +1,10 @@
 #STL Containers
 
-- [Vector](#Vector)
-- [Stack](#Stack)
-- [Queue](#Queue)
-- [Set](#Set)
-- [Map](#Map)
+- [Vector](#vector)
+- [Stack](#stack)
+- [Queue](#queue)
+- [Set](#set)
+- [Map](#map)
 
 ## Vector
 
